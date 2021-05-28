@@ -1,3 +1,4 @@
+/* eslint-disable */
 import React, { Fragment, useState, useEffect } from 'react'
 //components
 import InputConnection from './connectionlist/InputConnection'
@@ -10,7 +11,6 @@ const Dashboard = ({ type }) => {
   const [connectionsChange, setConnectionsChange] = useState(false)
   const [timeDay, setTimeDay] = useState("Good Morning,")
   const [allConnections, setAllConnections] = useState([])
- 
   const greeting = () => {
       let date = new Date()
       const hours = date.getHours()
@@ -27,7 +27,7 @@ const Dashboard = ({ type }) => {
       setName(type)
       greeting()
       setConnectionsChange(false)
-  }, [connectionsChange, timeDay])
+  }, [connectionsChange, timeDay, type])
 
 
 

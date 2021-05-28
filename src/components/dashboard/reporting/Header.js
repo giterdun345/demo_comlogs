@@ -22,6 +22,7 @@ const Header = (props) => {
                 </div>
                 <div className="nav-item ml-auto p-5">
                     {/* <LogoutBtn setAuth = {props.auth} /> */}
+                    <a href='/'> Go Back</a>
                 </div>            
             </div>
         )

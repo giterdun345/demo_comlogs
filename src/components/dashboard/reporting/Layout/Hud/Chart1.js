@@ -1,3 +1,5 @@
+/* eslint-disable */
+
 import React from 'react'
 import echarts from 'echarts/lib/echarts';
 import ReactEcharts from 'echarts-for-react';
