@@ -31,8 +31,7 @@ const ReportingLayout = ({auth, allConnections}) => {
                 <Header click={openHandler} cross={sidebarOpen} auth={auth}/>
                 {sidebar}
                 <Panel allConnections={ allConnections }/>
-            </Router>
-            
+            </Router>  
         </Fragment>
     )
 }
