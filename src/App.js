@@ -22,8 +22,8 @@ function App() {
       <Router>
           <Switch>
             <Route exact path="/" component={DemoLanding}/>
-            <Route exact path='/userDashboard' component={UserDashboard} />
-            <Route exact path='/adminDashboard' component={AdminDashboard} />
+            <Route  path='/userDashboard' component={UserDashboard} />
+            <Route  path='/adminDashboard' component={AdminDashboard} />
           </Switch>
       </Router>
     </Fragment>

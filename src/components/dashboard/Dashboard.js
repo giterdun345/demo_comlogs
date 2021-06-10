@@ -330,7 +330,7 @@ const Dashboard = ({ type }) => {
   if(type === "Lead School Counsellor" ){
     return(
           <div>
-              <ReportingLayout allConnections={ allConnections } />    
+            <ReportingLayout allConnections={ allConnections } />    
           </div>
         )
   }
